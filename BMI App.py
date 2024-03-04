@@ -14,7 +14,7 @@ def classify(val):
     if val < 18.5:
         print("You are Underweight")
     elif 18.5 <= val <= 24.9:
-        print("You are Normal Weight")
+        print("You have a Normal Weight")
     elif 25 <= val <= 29.9:
         print("You are Overweight")
     elif val >= 30:
