@@ -1,0 +1,45 @@
+BMI Calculator User Manual for Windows Users
+This user manual provides step-by-step instructions for downloading and running the BMI Calculator application on a Windows 10 computer. The BMI Calculator is a Python application that calculates Body Mass Index (BMI) based on user input for weight and height.
+
+**Downloading the Application:**
+Download Python: If Python is not already installed on your computer, download and install Python from the official website (https://www.python.org/downloads/). Choose the latest version compatible with your operating system (Windows).
+
+Download the Application Files: Download the BMI Calculator application files (bmi_app.py) from the source where the application is hosted 
+git clone https://github.com/Swagatroni/BMI-App.git
+Alternatively, you can download the zip file and extract the files in the desired location.
+
+Save the Application Files: Save the downloaded bmi_app.py file to a location on your computer where you can easily access it, such as the Desktop or a specific folder.
+
+Running the Application:
+Open Command Prompt: Press `Win + R`, type `cmd`, and press Enter to open the Command Prompt.
+
+Navigate to the Application Folder: Use the `cd` command to navigate to the folder where the bmi_app.py file is saved. For example, if the file is on your Desktop, you would use the following command:
+   ```
+   cd Desktop
+   ```
+
+Run the Application: To run the BMI Calculator application, use the following command:
+   ```
+   python bmi_app.py
+   ```
+
+Enter Weight and Height: Follow the on-screen instructions to enter your weight in pounds and your height in feet and inches.
+
+View BMI and Classification: After entering your weight and height, the application will calculate your BMI and display it on the screen. It will also classify your BMI into one of the categories: Underweight, Normal Weight, Overweight, or Obese.
+
+Exit the Application: Once you have viewed your BMI and classification, you can exit the application by closing the Command Prompt window.
+
+Note: If you encounter any issues or errors while running the application, ensure that Python is correctly installed and that you have entered the correct commands in the Command Prompt.
+
+Troubleshooting:
+
+Python Not Found: If you receive an error stating that Python is not recognized as a command, you may need to add Python to your PATH environment variable. You can do this during the installation process or manually through the Control Panel.
+
+
+Invalid Input Values: If you enter invalid input values (e.g., non-numeric characters), the application will raise a ValueError. Ensure that you enter numeric values for weight and height.
+
+
+File Not Found: If you receive a "File not found" error when trying to run the application, double-check the file path and make sure the bmi_app.py file is saved in the correct location.
+
+By following these instructions, you can download and run the BMI Calculator application on your Windows 10 computer to calculate your BMI and determine your weight classification.
+
