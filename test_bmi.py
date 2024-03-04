@@ -17,7 +17,7 @@ def test_classify_underweight():
     assert classify(4.5) == "You are Underweight"
     assert classify(10.48) == "You are Underweight"
     assert classify(16.61) == "You are Underweight"
-    assert classify(18.4) == "You are Underweight"
+    assert classify(18.49) == "You are Underweight"
 
 def test_classify_normal_weight():
     assert classify(18.5) == "You have a Normal Weight"
