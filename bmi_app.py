@@ -15,9 +15,9 @@ def calculate_bmi(weight, height_ft, height_in):
 def classify(val):
     if 0 <= val < 18.5:
         return "You are Underweight"
-    elif 18.5 <= val <= 24.9: # Raised the lower bound by 0.1
+    elif 18.5 <= val < 25: # Raised the lower bound by 0.1
         return "You have a Normal Weight"
-    elif 25 <= val <= 29.9:
+    elif 25 <= val < 30:
         return "You are Overweight"
     elif val >= 30:
         return "You are Obese"
@@ -25,9 +25,13 @@ def classify(val):
         raise ValueError("Invalid BMI value")
 
 try:
-   w = 0
-   h_ft = 0
-   h_in = 0
+   w = 150
+   h_ft = 5
+   h_in = 6
+
+#    w = 0
+#    h_ft = 0
+#    h_in = 0
 
    bmi_val = calculate_bmi(w, h_ft, h_in)
    print("Your BMI is:", bmi_val)
