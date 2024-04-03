@@ -2,7 +2,6 @@
 # kwt61
 # BMI App
 
-
 def calculate_bmi(weight, height_ft, height_in):
     if weight <= 0 or height_ft <= 0 or height_in < 0 or height_in >= 12:
         raise ValueError("Invalid input values")
@@ -26,10 +25,6 @@ def classify(val):
         raise ValueError("Invalid BMI value")
 
 try:
-#    w = float(input("Enter your weight in pounds: "))
-#    h_ft = int(input("Enter your height in feet: "))
-#    h_in = int(input("Enter your height in inches: "))
-
    w = 0
    h_ft = 0
    h_in = 0
